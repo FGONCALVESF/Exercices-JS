@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>TP CONVERTER</title>
+
+</head>
+
+<body>
+
+    <header id="heading" class="text-lg-center">
+
+        <h1>PROJET CONVERTER</h1>
+
+        <h2>CELSIUS FAHRENHEIT</h2>
+
+    </header>
+
+    <main id="bigblock" class="bg-white border-dark border">
+
+        <div class="headform">
+            <h3>CONVERTER FORM</h3>
+        </div>
+
+        <form id="converterForm" class="row mb-3">
+
+                <label id="valeurEnC" for="colFormLabel" class="col-sm-2 col-form-label"> <strong>Valeur en
+                        C°</strong></label>
+
+                <input type="text" class="form-control" id="colFormLabel" placeholder="Entrez la valeur de la Temp en °C">
+                
+                <hr>
+
+                <input id="Btn-Submit" class="btn" type="submit" value="Submit">
+                <input id="Btn-Reset" class="btn" type="reset" value="Reset">
+
+        </form>
+
+        <div id="erreur" class="invalid-feedback">Un nombre attendu est saisie !</div>
+        <p id="informations"></p>
+
+
+    </main>
+
+    <script src="assets/bs/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
